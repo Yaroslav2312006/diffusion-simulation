@@ -31,17 +31,18 @@
 
 4. Чтобы изменить параметры, используйте аргументы командной строки (см. раздел Параметры).
 
-Запуск в Docker (рекомендуемый способ)
-Соберите Docker-образ:
+### Запуск в Docker 
 
-bash
-docker build -t diffusion-sim .
-Запустите контейнер. Результаты сохранятся в локальную папку output:
+1. Соберите Docker-образ:
+   ```bash
+   docker build -t diffusion-sim .
+2. Запустите контейнер. Результаты сохранятся в локальную папку output:
 
 Для Linux/macOS:
 
-bash
+```bash
 docker run -it --rm -v $(pwd)/output:/app/output diffusion-sim
+
 Для Windows (cmd):
 
 bash
