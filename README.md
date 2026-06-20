@@ -52,7 +52,7 @@ docker run -it --rm -v %cd%/output:/app/output diffusion-sim
 ## Запуск в Docker
 
 Программа принимает следующие аргументы:
-
+```bash
 Параметр | Описание	| Значение по умолчанию
 -n, --particles | Количество частиц	| 1000
 -s, --steps | Число шагов моделирования |	100
@@ -60,7 +60,7 @@ docker run -it --rm -v %cd%/output:/app/output diffusion-sim
 -o, --output-dir |	Папка для сохранения результатов |	./output
 --no-viz |	Отключить визуализацию (только CSV) |	–
 --seed |	Зерно для генератора случайных чисел |	–
-
+```
 Пример запуска с кастомными параметрами:
 ```bash
 python -m src.main --particles 500 --steps 150 --step-size 0.5 --seed 42
