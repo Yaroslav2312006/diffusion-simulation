@@ -8,7 +8,7 @@
 ## Установка и запуск
 ### Локально
 ```bash
-git clone <URL вашего репозитория>
+git clone https://github.com/Yaroslav2312006/diffusion-simulation
 cd diffusion_simulation
 pip install -r requirements.txt
 python -m src.main --particles 1000 --steps 100
