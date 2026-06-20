@@ -42,14 +42,14 @@
 Для Linux/macOS:
 ```bash
 docker run -it --rm -v $(pwd)/output:/app/output diffusion-sim
-
+```
 Для Windows (cmd):
 ```bash
 docker run -it --rm -v %cd%/output:/app/output diffusion-sim
-
+```
 3. После завершения работы откройте папку output — там будут PNG-файлы и CSV с результатами.
 
-### Запуск в Docker
+## Запуск в Docker
 
 Программа принимает следующие аргументы:
 
@@ -64,11 +64,11 @@ docker run -it --rm -v %cd%/output:/app/output diffusion-sim
 Пример запуска с кастомными параметрами:
 ```bash
 python -m src.main --particles 500 --steps 150 --step-size 0.5 --seed 42
-
+```
 ## Тестирование
 
 Для запуска юнит-тестов выполните:
 ```bash
 pytest tests/
-
+```
 Тесты покрывают алгоритмическое ядро, статистические вычисления и экспорт данных.
