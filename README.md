@@ -37,9 +37,7 @@
    ```bash
    docker build -t diffusion-sim .
 2. Запустите контейнер. Результаты сохранятся в локальную папку output:
-
 Для Linux/macOS:
-
 ```bash
 docker run -it --rm -v $(pwd)/output:/app/output diffusion-sim
 
