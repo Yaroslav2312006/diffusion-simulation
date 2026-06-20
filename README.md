@@ -44,7 +44,6 @@
 docker run -it --rm -v $(pwd)/output:/app/output diffusion-sim
 
 Для Windows (cmd):
-
 ```bash
 docker run -it --rm -v %cd%/output:/app/output diffusion-sim
 
