@@ -8,10 +8,13 @@
 ## Установка и запуск
 ### Локальный запуск
 1. Клонируйте репозиторий:
+```bash
 git clone https://github.com/Yaroslav2312006/diffusion-simulation
 cd diffusion_simulation
 2.Установите зависимости:
+```bash
 pip install -r requirements.txt
 3.Запустите моделирование с параметрами по умолчанию (1000 частиц, 100 шагов, шаг 1.0):
+```bash
 python -m src.main
 4.Чтобы изменить параметры, используйте аргументы командной строки
