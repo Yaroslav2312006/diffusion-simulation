@@ -1,0 +1,24 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Файлы IDE
+.vscode/
+.idea/
+*.iml
+
+# Выходные данные (результаты)
+output/
+*.png
+*.csv
